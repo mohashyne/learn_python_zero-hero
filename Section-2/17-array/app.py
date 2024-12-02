@@ -8,6 +8,11 @@
 # When do we need an array? instead of using a list
 # we use arrays when we have a huge amount of data and we need to perform the same operation on all the data, for example, we have a list of 1000 numbers and we need to multiply all the numbers by 2, we can use an array to store the numbers and perform the operation on all the numbers at once, tto avoid writing a loop to iterate over the list and perform the operation on each number one by one. so as tto increase the performance of the program, we can use an array instead of a list.
 
+# https://docs.python.org/3/library/array.html
+
+from array import array as arr
+items = arr("i", [1, 3, 4, 5, 6])
+print(items)
+print(type(items)) # <class 'array.array'>
 
 
-[]
