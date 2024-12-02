@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "type": "debugpy",
+            "request": "launch",
+            "name": "Launch App",
+            "program": "${workspaceFolder}/${input:appPath}"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "appPath",
+            "description": "Select the app.py file to launch",
+            "options": [
+                "10-arithmetic_opts/app.py",
+                "11-working-with-nums/app.py",
+                "12-type_conversion/app.py",
+                "13-conditional_statement/app.py",
+                "14-logical_oprt/app.py",
+                "15-tenary_optr/app.py",
+                "16-loops/app.py",
+                "17-for_else/app.py",
+                "18-while_loop/app.py",
+                "19-functions/app.py",
+                "20-*args._wait_what?/app.py",
+                "21-**args/app.py",
+                "22-quiz/app.py",
+                "23-debugging/app.py",
+                "3-type_annotation/app.py",
+                "4-mutable_immutab_type/app.py",
+                "5-string/app.py",
+                "6-Escape_sequence/app.py",
+                "7-formatted_strings/app.py",
+                "8-useful-str-mthd/app.py",
+                "9-numbers/app.py",
+                "app.py"
+            ]
+        }
+    ]
+}
