@@ -29,7 +29,7 @@ for char in sentence:
         else:
             char_frequency[char] = 1 # add the character to the dictionary with count 1 if it is not already present
 
-pprint(char_frequency, width=1) # pprint is used to print dictionary in a better way             
+ # pprint is used to print dictionary in a better way             
 
 # since we cannot sort dictionary, we need to convert it to list of tuples
 # and then sort it
