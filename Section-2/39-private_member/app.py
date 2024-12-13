@@ -32,10 +32,10 @@ cloud.add("python")
 # print(cloud.tags) # {'python': 3}
 print(cloud.__tags) # 'TagCloud' object has no attribute '__tags', this is because __tags is a private member
 print(cloud.__tags["PYTHON"]) # this is a key error because the key is not in the dictionary, 
-# and the coverting the key to lowercase will not work
+# and the converting the key to lowercase will not work
 
 # technically, you can still access the private member by using the following syntax, it is just that they will 
-# be deficult to access
+# be difficult to access
 print(cloud.__dict__) # {'_TagCloud__tags': {'python': 3}}
 # print(cloud._TagCloud__tags) # {'python': 3}
 len(cloud) # 1
