@@ -7,19 +7,18 @@ class Product:
     # and name the method thee ideal "price", so that when python sees it , it will create a property for price
     @property
     def price(self):
+    # def get_price(self):      
         return self.__price
     
     # normally  we don't implement setters for public users, to avoid changing a  value when its set
     @price.setter
     def price(self, value):
+    # def set_price(self, value):    
         if value < 0:
             raise ValueError("Price cannot be negative")
         self.__price = value
         
-    # def __init__(self, name, price, quantity):
-    #     self.name = name
-    #     self.price = price
-    #     self.quantity = quantity        
+#    price = property(get_price, set_price)        
         
         
 
