@@ -1,5 +1,7 @@
 from pathlib import Path
 
+#pathlib object oriented filesystem
+
 Path(r"C:\Program Files\Microsoft")
 Path("usr/local/bin")
 Path()
