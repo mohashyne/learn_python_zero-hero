@@ -4,7 +4,8 @@ from zipfile import ZipFile
 # zip = ZipFile("Section-3/11-zip_files/all_files.zip", "w")
 with ZipFile("Section-3/11-zip_files/all_files.zip", "w") as zip:
     for path in Path("Section-3/11-zip_files").rglob("*/*"):
-        zip.write(path)
+        # if path.name == "__init__.py":
+           zip.write(path)
 # zip.close()
   
 
