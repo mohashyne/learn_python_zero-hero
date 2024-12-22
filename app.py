@@ -1,8 +1,17 @@
+# send email
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+import smtplib
 
-print("Hello World")
+message = message = MIMEMultipart()
+message ["from"] = "Muhammad Msa"
+message ["to"] = "alkaline4peace@gmail.com"
+message ["subject"] = "This is a test"
+message. attach (MIMEText ("Body"))
 
-print('*' * 10)
-
-print(list(map(lambda cha: cha, ("Hello World".replace(" ", "-")))))
-
-
+with smtplib.SMTP(host="smtp-gmail.com", port=587) as smtp:
+    smtp.ehlo( )
+    smtp.starttls()
+    smtp.login("testuser@codewithmosh.com", "today")
+    smtp.send_message(message)
+    print ("Sent...")
