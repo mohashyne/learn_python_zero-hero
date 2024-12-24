@@ -1,17 +1,12 @@
-# send email
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-import smtplib
+import sys
 
-message = message = MIMEMultipart()
-message ["from"] = "Muhammad Msa"
-message ["to"] = "alkaline4peace@gmail.com"
-message ["subject"] = "This is a test"
-message. attach (MIMEText ("Body"))
 
-with smtplib.SMTP(host="smtp-gmail.com", port=587) as smtp:
-    smtp.ehlo( )
-    smtp.starttls()
-    smtp.login("testuser@codewithmosh.com", "today")
-    smtp.send_message(message)
-    print ("Sent...")
+# print(sys.argv)  # prints the list of command line arguments
+# # ['/Users/muhammadibnsalyhu/Desktop/CODING/learn_python/Section-3/23-cmd-line-args/app.py']
+# # the list must always have at least one element which is the name of the script
+
+if len(sys.argv) == 1:
+    print("USAGE: python app.py <password>")
+else:
+    password = sys.argv[1]
+    print(f"Password: {password}")
