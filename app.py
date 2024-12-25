@@ -10,3 +10,5 @@ if len(sys.argv) == 1:
 else:
     password = sys.argv[1]
     print(f"Password: {password}")
+    
+    
