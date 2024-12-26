@@ -1,0 +1,60 @@
+pipenv --venv
+
+ rm -rf /Users/myusername/Desktop/CODING/learn_python/.venv 
+
+ use:
+
+ pipenv  install (to install all dependencies)
+
+
+
+ NOTE:(my fix)
+
+ python3 -m venv
+
+ or
+
+ install pipx 
+ pipx install pipenv
+
+
+ pipx install pipenv                                                                                       ─╯
+
+zsh: command not found: pipx
+
+╭─ ~/Desktop/CODING/learn_python  master *1 ?1 ───────────────────────── 127 х  learn_python Py  09:52:30 AM ─╮
+╰─ pipx install pipenv                                                                                       ─╯
+
+  installed package pipenv 2024.4.0, installed using Python 3.13.1
+  These apps are now globally available
+    - pipenv
+    - pipenv-resolver
+⚠️  Note: '/Users/myusername/.local/bin' is not on your PATH environment variable. These apps will not
+    be globally accessible until your PATH is updated. Run `pipx ensurepath` to automatically add it, or
+    manually modify your PATH in your shell's config file (e.g. ~/.bashrc).
+done! ✨ 🌟 ✨
+
+╭─ ~/Desktop/CODING/learn_python  master *1 ?1 ──────────────────────── ✔  31s  learn_python Py  10:02:48 AM ─╮
+╰─ pipenv --venv                                                                                             ─╯
+zsh: command not found: pipenv
+
+
+
+
+                                                                                                       ─╯
+
+vscode settings:
+
+   "python.pythonPath": "/Users/myusername/.local/share/virtualenvs/learn_python-vauFCfNC/bin/python3",
+  "python.linting.enabled": true, // enable/disable linting 
+
+
+╰─ pipenv --venv                                                                                             ─╯
+zsh: command not found: pipenv
+FIX:
+brew install pipenv
+
+pipenv install
+pipenv --venv
+
+/Users/myusername/.local/share/virtualenvs/learn_python-vauFCfNC
