@@ -20,3 +20,5 @@ setuptools.setup(
     ],
     python_requires=">=3.6",  # Specify minimum Python version
 )
+
+# TODO: configure virtual environment:
