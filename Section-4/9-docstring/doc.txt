@@ -1,0 +1,27 @@
+# create a pypi account
+# install setuptools and wheel
+#  install twine
+
+#  use pip install setuptools wheel twine
+
+#  or pipx install setuptools wheel twine
+
+run this command to create a  distribution package:
+
+
+ python3 setup.py sdist bdist_wheel 
+
+
+
+
+ FIXES: 
+ python3 -m venv .venv
+source .venv/bin/activate
+
+
+╭─ ~/De/COD/learn_python/Section-4/8-publishing_packages/mspdf  master *1 !6 ?5 ─── ✔  mspdf Py  06:51:54 PM ─╮
+╰─ twine upload dist/*   
+
+so we can download this package using
+
+pip3 install mspdf
