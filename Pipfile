@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
 setuptools = "*"
+requests = "*"
 
 [dev-packages]
 
