@@ -3,7 +3,7 @@
 import requests
 
 url = "https://api.yelp.com/v3/businesses/search"
-api_key = "uDGBs2MSowOLTIGpbur_kDnxqC9mwHRdNхafzXLz7wrKKsXЗwTdc6cax6v5o0iyV4rKkFuttGVVHDOBjh61u1QyQVTMHEw8vn1e-A4iGE0DduS3NpyARZajdYnxwZ3Yx"
+api_key = "kkk-jjj"
 
 
 headers = { 
