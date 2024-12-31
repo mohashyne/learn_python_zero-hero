@@ -17,10 +17,9 @@ class Point:
     def __str__(self):
         return f"({self.x}, {self.y}, {self.z})"    
 
-    @classmethod
-    def zero(cls):
-        return cls(0, 0, 0)
-        
+    @classmethod # class method decorator  
+    def zero(cls): # cls is the class itself
+        return cls(0, 0, 0) # cls is used to create an instance of the class itself , if the user dose not provide any values for the class attributes, the class attributes will be set to 0   
 
     def draw(self):
         print(f"Point ({self.x}, {self.y}, {self.z})")

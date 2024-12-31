@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class UIControl(ABC):
-    @abstractmethod
+    @abstractmethod # This is a decorator that tells python that this method is abstract and it must be implemented in the derived class
     def draw(self):
         pass
     

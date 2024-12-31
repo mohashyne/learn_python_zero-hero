@@ -7,6 +7,11 @@ name = "pypi"
 setuptools = "*"
 requests = "*"
 twilio = "*"
+pylint = "*"
+beautifulsoup4 = "*"
+bs4 = "*"
+selenium = "*"
+pypdf2 = "*"
 
 [dev-packages]
 
