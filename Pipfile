@@ -12,6 +12,7 @@ beautifulsoup4 = "*"
 bs4 = "*"
 selenium = "*"
 pypdf2 = "*"
+openpyxl = "*"
 
 [dev-packages]
 
