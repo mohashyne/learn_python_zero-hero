@@ -63,3 +63,5 @@ print(celll.value) # FeederID
 # sheet.insert_rows(0, 2) # insert 2 rows at the beginning
 # append
 # sheet.append(["value1", "value2", "value3"]) # append a row
+
+wb.save("readings2.xlsx")  # save the workbook
